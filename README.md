@@ -8,14 +8,14 @@ This project is a web-based word connection game. The core gameplay revolves aro
 
 ## ✨ Features
 
-* **Multiple Game Modes**:
-    * [cite_start]**Player vs. Player (PvP)**: Two players can compete against each other. 
-    * [cite_start]**Player vs. AI**: A single player can challenge an AI opponent. 
-    * [cite_start]**AI vs. AI**: Watch two AI opponents battle it out. 
-* [cite_start]**Difficulty Levels**: The AI opponent can be set to different difficulty levels, including easy, medium, and hard. 
-* [cite_start]**Timer**: A time limit for each turn adds a layer of challenge and excitement to the game. 
-* [cite_start]**Score Tracking**: The game keeps track of each player's score. 
-* [cite_start]**Word Validation**: A robust word validation system ensures that players use valid English words and prevents the repetition of words. 
+**Multiple Game Modes**:
+    **Player vs. Player (PvP)**: Two players can compete against each other. 
+    **Player vs. AI**: A single player can challenge an AI opponent. 
+    **AI vs. AI**: Watch two AI opponents battle it out. 
+**Difficulty Levels**: The AI opponent can be set to different difficulty levels, including easy, medium, and hard. 
+**Timer**: A time limit for each turn adds a layer of challenge and excitement to the game. 
+**Score Tracking**: The game keeps track of each player's score. 
+**Word Validation**: A robust word validation system ensures that players use valid English words and prevents the repetition of words. 
 
 ---
 
@@ -42,24 +42,6 @@ You will need a local web server to run this project. You can use any local serv
     npx http-server
     ```
 4.  **Open your web browser and go to the provided localhost address (e.g., `http://localhost:8000`).**
-
----
-
-## 📂 File Structure
-
-The project is organized with the following file structure:
-
-/
-├── index.html          # The main HTML file for the game's UI 
-
-├── style.css           # CSS file for styling the game 
-
-├── game.js             # Contains the main game logic and state management 
-
-├── wordValidator.js    # Handles word validation using the wordlist 
-
-└── wordlist.txt        # A text file containing a list of valid English words 
-
 
 ---
 
